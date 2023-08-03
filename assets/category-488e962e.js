@@ -1,0 +1,1 @@
+var s={async getCategoryItems(){return await(await fetch("https://vysingsun-api.onrender.com/category/all",{method:"GET",headers:{"Content-type":"application/json"}})).json()},async getCategoryItem(){return await(await fetch("https://vysingsun-api.onrender.com/category/categorized-items",{method:"GET",headers:{"Content-type":"application/json"}})).json()}};export{s as c};
