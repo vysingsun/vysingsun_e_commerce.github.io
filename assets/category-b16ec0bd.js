@@ -1,0 +1,1 @@
+var a={async getCategoryItems(){return await(await fetch("http://localhost:3001/category/all",{method:"GET",headers:{"Content-type":"application/json"}})).json()},async getCategoryItem(){return await(await fetch("http://localhost:3001/category/categorized-items",{method:"GET",headers:{"Content-type":"application/json"}})).json()}};export{a as c};
