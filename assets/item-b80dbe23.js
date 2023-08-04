@@ -1,1 +1,0 @@
-var s={async getItemApi(t){return await(await fetch(`http://localhost:3001/item/categoryid/${t}`,{method:"GET",headers:{"Content-type":"application/json"}})).json()},async getAllItemApi(t){return await(await fetch("http://localhost:3001/item/all",{method:"GET",headers:{"Content-type":"application/json"}})).json()}};export{s as i};
